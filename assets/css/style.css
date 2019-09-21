@@ -121,7 +121,7 @@ footer{
     height: 50px;
     text-align: center;
 }
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
     .navbar{
         display: flex;
         flex-direction: column-reverse;
@@ -133,5 +133,22 @@ footer{
     .container{
         width: 600px;
     }
-
+  }
+  @media screen and (max-width: 768px){
+    .navbar{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .name{
+        width: auto;
+    }
+    .container{
+        width: auto;
+    }
+  }
+  @media screen and (max-width: 980px){
+    .container{
+        width: auto;
+    }
   }
